@@ -10,8 +10,8 @@
 
 """
 
-f = open("sashi.txt", "rt")
-print(f.readlines())
+# f = open("sashi.txt", "rt")
+# print(f.readlines())
 # content = f.read()
 # print(f.readline())
 # print(f.readline())
@@ -24,4 +24,18 @@ print(f.readlines())
 # content = f.read(3433)
 # print("1", content)
 
-f.close()
+# f.close()
+
+# f = open("sashi.txt", "w")
+# f.write("sashi is waste")
+# f.close()
+
+# f = open("sashi2.txt", "a")
+# f.write("sashi is waste\nhe is good")
+# f.close()
+
+# f = open("sashi2.txt", "r+")
+# print(f.read())
+# f.write("thank you")
+# f.close()
+
