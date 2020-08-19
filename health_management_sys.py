@@ -112,13 +112,6 @@ def get(k):
     else:
         print("Please enter 1 for Harry, 2 for Sashi and 3 for Mark")
 
-    
-    
-        
-
-
-
-
 
 
 print("Health Management System:")
