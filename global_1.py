@@ -1,6 +1,6 @@
 l = 10 #global
 def f1(n):
-    l = 5 #local
+    # l = 5 #local
     m = 8 #local
     global l 
     l = l+45
