@@ -5,22 +5,18 @@ class Employee:
         self.name = aname
         self.salary = asalary
         self.role = arole
-    
+
     def printdetails(self):
         return f"Name is {self.name}. Salary is {self.salary}. Role is {self.role}"
+
+    @classmethod
+    def change_leaves(cls, newleaves):
+        cls.no_of_leaves = newleaves
+
 
 
 harry = Employee("Harry", 255, "instructor")
 sashi = Employee("Sashi", 200, "student")
 
-# harry.name = "Harry"
-# harry.salary = 200000
-# harry.role = "Instructor"
-#
-#
-# sashi.name = "Sashi"
-# sashi.salary = 10000
-# sashi.role = "Student"
-
-print(harry.printdetails())
-print(sashi.printdetails())
+sashi.change_leaves(35)
+print(harry.no_of_leaves)
